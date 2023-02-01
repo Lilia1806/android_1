@@ -9,7 +9,8 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_fr"
         android:layout_width="match_parent"
+        tools:listitem="@layout/item"
         android:layout_height="match_parent"
-        android:background="#2196F3" />
+        android:background="#3F51B5" />
 
 </FrameLayout>
