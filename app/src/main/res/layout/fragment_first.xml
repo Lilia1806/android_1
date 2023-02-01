@@ -9,8 +9,8 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_fr"
         android:layout_width="match_parent"
-        tools:listitem="@layout/item"
         android:layout_height="match_parent"
-        android:background="#3F51B5" />
+        android:background="#03A9F4"
+        tools:listitem="@layout/item" />
 
 </FrameLayout>
