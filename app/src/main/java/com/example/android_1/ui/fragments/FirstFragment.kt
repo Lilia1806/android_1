@@ -46,6 +46,10 @@ class FirstFragment : Fragment(), OnItemTextListener {
         binding.rvFr.adapter = adapter
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+    }
+
     override fun onClick(model: Model) = with(binding) {
         val transition: NavDirections =
             FirstFragmentDirections.actionFirstFragmentToDetailFragment(

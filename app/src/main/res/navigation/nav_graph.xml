@@ -32,8 +32,7 @@
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" >
         <action
-            android:id="@+id/action_secondFragment2_to_detailSecondFragment"
-            app:destination="@id/detailSecondFragment" />
+            android:id="@+id/action_secondFragment2_to_detailSecondFragment" />
     </fragment>
     <fragment
         android:id="@+id/thirdFragment"
@@ -41,18 +40,7 @@
         android:label="fragment_thirt"
         tools:layout="@layout/fragment_thirt" >
         <action
-            android:id="@+id/action_thirdFragment_to_detailThirdFragment"
-            app:destination="@id/detailThirdFragment" />
+            android:id="@+id/action_thirdFragment_to_detailThirdFragment" />
     </fragment>
-    <fragment
-        android:id="@+id/detailSecondFragment"
-        android:name="com.example.android_1.ui.fragments.detail.DetailSecondFragment"
-        android:label="fragment_detail_second"
-        tools:layout="@layout/fragment_detail_second" />
-    <fragment
-        android:id="@+id/detailThirdFragment"
-        android:name="com.example.android_1.ui.fragments.detail.DetailThirdFragment"
-        android:label="fragment_detail_third"
-        tools:layout="@layout/fragment_detail_third" />
 
 </navigation>

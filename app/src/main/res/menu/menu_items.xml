@@ -5,11 +5,11 @@
         android:icon="@drawable/ic_baseline_movie_filter_24"
         android:title="Cinema" />
     <item
-        android:id="@+id/secondFragment"
-        android:icon="@drawable/ic_baseline_emoji_emotions_24"
-        android:title="Hi" />
+        android:id="@+id/secondFragment2"
+        android:icon="@drawable/ic_baseline_error_24"
+        android:title="Cats" />
     <item
         android:id="@+id/thirdFragment"
-        android:icon="@drawable/ic_baseline_insert_emoticon_24"
-        android:title="Bye" />
+        android:icon="@drawable/ic_baseline_language_24"
+        android:title="Language" />
 </menu>
